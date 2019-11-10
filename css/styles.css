@@ -1,0 +1,108 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+#header{
+    background:#FF4C68;
+    padding: 1.5rem 2.5rem;
+}
+.title-img{
+   
+}
+.fearure{
+    background: white;
+    position: relative;
+}
+
+.heading-wrapper{
+    padding: 2rem 10%;
+    line-height: 3rem;
+}
+.f-icon{
+    color:indianred;
+}
+.f-icon:hover{
+    color:#FF4C68;
+}
+
+.slider-carousel{
+    background:#EF8172;
+    
+}
+.slider-carousel h2{
+    line-height: 3rem;
+}
+.s-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.press-logo{
+    background:#EF8172;
+    padding: 2rem 1rem;
+}
+.p-img{
+    width:15%;
+    margin: 0 20px ;
+}
+.card{
+    
+}
+.card p{
+    font-size: 1.2rem;
+}
+.highlight{
+    background-color:#FF4C68;
+    color: white;
+    padding: 0 50px;
+}
+.highlight h1{
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.icon-wrapper{
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width:1000px)
+{
+    .iphone-img{
+        transform: rotate(25deg);
+        width: 50%;
+        left: 20%;
+    }
+  
+    .ima-container{
+        padding: 0;
+    }
+    .iphone-img{
+        position: absolute;
+    }
+}
+@media screen and (max-width:1200px)
+{
+    .iphone-img{
+        width: 60%;
+        transform: rotate(0deg);
+       
+    }
+    .ima-container{
+        text-align: center;
+    }
+    .heading-wrapper{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .heading-wrapper{
+        padding: 0;
+        line-height: 0;
+    }
+}
